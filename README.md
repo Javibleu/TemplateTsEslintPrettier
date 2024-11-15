@@ -15,18 +15,30 @@
 ### Installation
 
 1. Clone the repo
-   ```sh
+
+```sh
    git clone https://github.com/Javibleu/TemplateTsEslintPrettier
-   ```
+```
+
 2. Install NPM packages
-   ```sh
+
+```sh
    npm install
-   ```
+```
+
 3. Change git remote url to avoid accidental pushes to base project
-   ```sh
+
+```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
-   ```
+```
+
+4. In case you want just to remove remote url
+
+```sh
+   git remote remove origin
+   git remote -v # confirm the changes
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  Any contributions you make are **greatly appreciated**.
